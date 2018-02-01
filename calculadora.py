@@ -4,6 +4,7 @@
 import sys
 from sys import argv
 
+
 def sum(numero1, numero2):
     return numero1 + numero2
 
@@ -20,7 +21,7 @@ def div(numero1, numero2):
         sys.exit("Error: division por cero")
     
     
-if len(sys.argv) != 4:   
+if len(sys.argv) != 4:
     sys.exit("Numero argumentos invalido")
 
 funcion = argv[1]
