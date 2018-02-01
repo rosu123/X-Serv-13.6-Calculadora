@@ -8,19 +8,22 @@ from sys import argv
 def sum(numero1, numero2):
     return numero1 + numero2
 
+
 def res(numero1, numero2):
     return numero1 - numero2
-    
+
+
 def mult(numero1, numero2):
     return numero1 * numero2
+
 
 def div(numero1, numero2):
     try:
         return numero1 / numero2
     except ZeroDivisionError:
         sys.exit("Error: division por cero")
-    
-    
+
+
 if len(sys.argv) != 4:
     sys.exit("Numero argumentos invalido")
 
