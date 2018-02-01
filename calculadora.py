@@ -34,7 +34,7 @@ try:
 except ValueError:
     sys.exit("Argumentos invalidos")
 
-    
+
 if funcion == "sumar":
     print(sum(operando1, operando2))
 elif funcion == "restar":
